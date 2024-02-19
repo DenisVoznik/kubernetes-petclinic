@@ -6,3 +6,5 @@ metadata:
 type: Opaque
 data:
   POSTGRES_URL: amRiYzpwb3N0Z3Jlc3FsOi8vcG9zdGdyZXMucG9zdGdyZXMuc3ZjLmNsdXN0ZXIubG9jYWw6NTQzMi9wZXRjbGluaWM=
+  POSTGRES_USER: cGV0Y2xpbmlj
+  POSTGRES_PASS: cGV0Y2xpbmlj

@@ -23,6 +23,16 @@ spec:
                 secretKeyRef:
                   name: petclinic-secret
                   key: POSTGRES_URL
+            - name: POSTGRES_USER
+              valueFrom:
+                secretKeyRef:
+                  name: petclinic-secret
+                  key: POSTGRES_USER
+            - name: POSTGRES_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: petclinic-secret
+                  key: POSTGRES_PASS
           resources:
             limits:
               memory: "1024Mi"
